@@ -1,0 +1,129 @@
+Java Full Stack
+
+Course Content:
+1. Html, CSS, Javascript
+2. Core Java, Advance Java, Database, Sql
+3. Spring Core, Spring Boot, Microservices, Maven, Git, Docker, Aws
+4. Communication Skills, Interview Framing, Resume Prep, Self Confidence
+
+Java Features:
+1. Simple
+2. Platfrom Independent
+3. Robust(Strong)
+	i) Automatic memory management
+	ii) Exeception handling (self healing)
+4. OOPS(Object Oriented Programming System)
+5. Secure
+
+Environment Setup:
+1. Download and install jdk 1.8 [2 folder]
+	.JDK(Java Development Kit) [set of tools to develop program]
+	.JRE(Java Runtime Environment) [jre gives us Platfrom to execute program, and jvm is inside jre]
+2. set the path
+	.system variable -> JAVA_HOME -> C:\Program Files\Java\jdk1.8.0_202
+	. user variable -> path -> %JAVA_HOME%\bin
+3. verify 
+	.java -version
+
+Where to write code?
+1. Notepad
+2. Notepad++
+3. IDE: Adv-> develop, execution 
+	Dis-> auto suggest, Error, Syntax complete
+
+Java Program Structure:
+1. Package statement
+2. import statement
+3. class declaration (blueprint)
+4. Methods in Java & Functions in Javascript
+5. variables
+
+Difference between JRE, JVM, JDK?
+
+Translator:
+-> It is used to convert from one format to another format
+-> 3 types of Translator
+	.Interpreter
+	.Compiler
+	.Assembler
+
+JVM Architecture:
+1. classloader subsystem : It will load .class file into JVM 
+2. Method Area : Class code will be stored here
+3. Heap Area : object will be stored into heap area
+4. Java Stack : Method execution information will stored here
+5. Pc register : It will maintain next line information to execute
+6. Native Stack : It will maintain non-java code execution information
+7. Execution (interpreter) : It is responsible to execute the program and provide output
+8. Native Interface : It will load native lib into jvm
+9. Native Libraries : non-java Libraries which are required for native code execution
+note: Which code not written in java is called native code.
+
+Data Types:
+1. Primitive 
+	char : char c = 'a'; -> 2 bytes(in Java) because ASCII+Spec.char => 2 	bytes. In c++ -> 1 bytes
+	boolean : true/false
+	byte : -128 to 127 -> 1 bytes => 8 bits
+	short : 2 bytes
+	int : 4 bytes
+	long : 8 bytes
+	float : 4 bytes
+	double : 8 bytes
+2. Non-Primitive -> array, string, etc.
+
+Type of comment in java
+1. single line comment
+2. multiline comment
+3. documentation comment
+
+Java Dev Test:
+1. Explain client server Architecture?
+2. What is database and why we need it?
+3. What is programming language and why we need programming language?
+4. What are the Features of Java?
+5. What type of application we can develop using Java? 
+Ans: J2SE->Calculator app, J2EE->Facebook, J2ME->mobile app
+6. What is the difference between JDK, JVM, JRE?
+7. What is the difference between compiler and Interpreter?
+8. Explain JVM architecture?
+9. Write a program to print Hello?
+10. Explain Java program Structure?
+
+Chapter 1: (Identifiers, Operators and Control statement)
+
+Java Identifiers -> Identifiers are the names given to class Method, interface.
+
+Rules for nameing Identifiers:
+1. valid char : lowercase, uppercase, digit, _, $
+2. Start with : letter, _, $. It cannot start with digit
+3. case sensitivity : car, Car, CAR
+4. Reserved keywords : (int, for, if, class) cannot be used
+
+Convention for Naming Identifiers(best for Identifiers):
+1. CamelCase : for classes, method, variables eg: carName, cityName
+2. MeaningFul : String cityName = "101", cityName="Agra"
+
+valid Identifiers:
+age -> valid
+_marks -> valid
+$value -> valid
+8marks -> invalid
+class -> invalid
+my-name -> invalid
+@cityName -> invalid
+calCulator -> valid
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
