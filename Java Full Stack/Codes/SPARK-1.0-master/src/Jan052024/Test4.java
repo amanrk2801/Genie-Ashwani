@@ -19,6 +19,6 @@ public class Test4
 {
     public static void main(String[] args) {
         Dog dog = new Dog();
-        dog.print();
+        dog.print(); // Parent name = Animal Child name = jypsy
     }
 }

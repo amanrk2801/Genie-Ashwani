@@ -1,7 +1,5 @@
 package Jan112024;
 
-import jdk.nashorn.internal.runtime.ECMAException;
-
 public class ThrowDemo {
 
     public static void main(String[] args) {
